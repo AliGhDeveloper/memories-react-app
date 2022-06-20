@@ -1,0 +1,15 @@
+.posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin-right: 20px
+}
+
+@media only screen and (max-width: 600px){
+    .posts {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        margin-right: 20px
+    }
+}

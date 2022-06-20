@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Righteous&display=swap');
+
+.AppBar {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Righteous', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 73, 249);
+    padding: 16px 0;
+    user-select: none;
+    border-radius: 10px
+}
+img{
+    width: 65px;
+    height: 65px;
+}

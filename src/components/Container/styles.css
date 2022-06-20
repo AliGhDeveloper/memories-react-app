@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    padding: 10px;
+}
+
+.posts{
+    width: 65%;
+}
+
+.form{
+    padding: 5px;
+    width: 35%;
+    text-align: center;
+    background-color: rgb(155, 60, 245);
+    border-radius: 4px
+}
+
+.form > form > input{
+    width: 80%;
+    margin: 10px auto 0
+}

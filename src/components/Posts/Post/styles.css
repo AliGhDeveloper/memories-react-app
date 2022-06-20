@@ -1,0 +1,48 @@
+.post {
+    border: 2px solid black;
+    box-shadow: 1px 1px 2px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+img.edit-icon {
+    width: 16px !important;
+    height: 16px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    cursor: pointer;
+}
+
+
+img.edit-icon:active {
+    background-color: rgba(163, 155, 155, 0.469);
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px
+}
+
+.post-header {
+    position:relative;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+img.post-image {
+    width: 90%
+}
+
+.post-header > h3{
+    position:absolute;
+    bottom: 0;
+    left:20%;
+    margin: 0;
+    padding: 10px;
+}
+
+.post-body {
+    padding: 1rem;
+}
