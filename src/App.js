@@ -17,6 +17,7 @@ function App(){
     }, [currentId, dispatch])
     return(
         <Container>
+			hello
             <AppBar />
             <Row>
                 <Col className="col-lg-8">
