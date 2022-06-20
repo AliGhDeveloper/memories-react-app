@@ -1,5 +1,4 @@
 import AppBar from './components/Appbar/AppBar';
-
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
 import { useDispatch, useSelector } from 'react-redux';
@@ -18,7 +17,7 @@ function App(){
     return(
         <Container>
             <AppBar />
-            <Row>
+            <Row className="row">
                 <Col className="col-lg-8">
                     <Posts postsList={ posts } setCurrentId={ setCurrentId }/>
                 </Col>
